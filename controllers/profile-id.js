@@ -1,4 +1,4 @@
-const { db } = require('../constants/db');
+const { db } = require('../models/db');
 
 
 const get = (req, res) => {

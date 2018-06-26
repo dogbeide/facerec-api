@@ -1,5 +1,5 @@
 const Clarifai = require('clarifai');
-const { db } = require('../constants/db');
+const { db } = require('../models/db');
 
 
 const app = new Clarifai.App({

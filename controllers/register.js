@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt-nodejs');
-const { db } = require('../constants/db');
+const { db } = require('../models/db');
 
 const post = (req, res) => {
   const { name, email, password } = req.body;
