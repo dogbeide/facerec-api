@@ -3,7 +3,7 @@ const { db } = require('../models/db');
 
 
 const app = new Clarifai.App({
-  apiKey: 'f11e601129dc41af9444063232a81248'
+  apiKey: process.env.API_KEY_CLARIFAI
 });
 
 const post = (req, res) => {
